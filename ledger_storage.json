@@ -1,0 +1,166 @@
+{
+  "difficulty": 2,
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1791658139.7872925,
+      "merkle_root": "701f23cef949f44835e93c6cf2b068c393144c458b43f667e67eb99487b97375",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": 91,
+      "hash": "005e6b42d9917db3ac7c9e68e4c43838f4593acbe91d13459e34a1a4f1ab84dd",
+      "transactions": [
+        {
+          "tx_id": "701f23cef949f44835e93c6cf2b068c393144c458b43f667e67eb99487b97375",
+          "sender": "GENESIS",
+          "recipient": "SYSTEM_RESERVE",
+          "amount": 1000000.0,
+          "tx_type": "GENESIS",
+          "metadata": {
+            "note": "Initial Central Reserve Protocol Fund"
+          },
+          "timestamp": 1791658139.7872925
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "timestamp": 1791658139.7872925,
+      "merkle_root": "0c7db1cf660c90739b8cac5e613f5c2cdab4e1f1c86ea8331af42f02a84a0a05",
+      "previous_hash": "005e6b42d9917db3ac7c9e68e4c43838f4593acbe91d13459e34a1a4f1ab84dd",
+      "nonce": 503,
+      "hash": "00539b59bfc184c4363650fb6a8e02adf3427d511e3ec17d70469761bc107532",
+      "transactions": [
+        {
+          "tx_id": "f133c63a5a9c12e584c7df8f1a9138f417afe7705f3eecaf33d8feb372c86c82",
+          "sender": "SYSTEM_RESERVE",
+          "recipient": "ahad",
+          "amount": 50000.0,
+          "tx_type": "DEPOSIT",
+          "metadata": {
+            "note": "Initial banking deposit for ahad"
+          },
+          "timestamp": 1791658139.7872925
+        },
+        {
+          "tx_id": "96f9e252f13b121ec82c4590523204944d30ea802b20dbcda144fe45950143ce",
+          "sender": "SYSTEM_RESERVE",
+          "recipient": "owais",
+          "amount": 35000.0,
+          "tx_type": "DEPOSIT",
+          "metadata": {
+            "note": "Initial banking deposit for owais"
+          },
+          "timestamp": 1791658139.7872925
+        },
+        {
+          "tx_id": "318a90bce94795f708780eafe17eeaa49523715dc13fe5792ea1a5bdac3e7764",
+          "sender": "SYSTEM_RESERVE",
+          "recipient": "saad",
+          "amount": 20000.0,
+          "tx_type": "DEPOSIT",
+          "metadata": {
+            "note": "Initial banking deposit for saad"
+          },
+          "timestamp": 1791658139.7872925
+        },
+        {
+          "tx_id": "6f34ced3858c2d2110065cfd3d6076c3dc6be2ee78e8a2d41f0afcc1cde885a0",
+          "sender": "SYSTEM",
+          "recipient": "SYSTEM",
+          "amount": 10.0,
+          "tx_type": "MINING_REWARD",
+          "metadata": {
+            "note": "Proof-of-Work Block Reward for Node SYSTEM"
+          },
+          "timestamp": 1791658139.7872925
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "timestamp": 1791658434.2791424,
+      "merkle_root": "0f5523a6c438ecb94def9a37bb19efe0ded067fa96870f7ef962c0934a987333",
+      "previous_hash": "00539b59bfc184c4363650fb6a8e02adf3427d511e3ec17d70469761bc107532",
+      "nonce": 92,
+      "hash": "0015aaaf7eca9b4c19d36b254b06703007dc224fde35f71cd4cee6fda7f31db8",
+      "transactions": [
+        {
+          "tx_id": "617fba8c66d90851b0cd7088957e249093fb37a54c787e4918e0147a713744b3",
+          "sender": "owais",
+          "recipient": "saad",
+          "amount": 9998.0,
+          "tx_type": "TRANSFER",
+          "metadata": {
+            "note": "udhar"
+          },
+          "timestamp": 1791658330.1530359
+        },
+        {
+          "tx_id": "c21ba86c28fe196d7a943458eee5e08c234e50a28dcd77d30a303b6770f82242",
+          "sender": "saad",
+          "recipient": "owais",
+          "amount": 10000.0,
+          "tx_type": "TRANSFER",
+          "metadata": {
+            "note": "wapas"
+          },
+          "timestamp": 1791658426.1448073
+        },
+        {
+          "tx_id": "d3a70cd0598ee8838c6ccc057c5cad27b22c14da2e6f740a1d1a62f88dc6214f",
+          "sender": "SYSTEM",
+          "recipient": "Validator_Node_1",
+          "amount": 10.0,
+          "tx_type": "MINING_REWARD",
+          "metadata": {
+            "note": "Proof-of-Work Block Reward for Node Validator_Node_1"
+          },
+          "timestamp": 1791658434.2791424
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "timestamp": 1791658510.3364205,
+      "merkle_root": "1cbef25acb78adbab2a93bdcf7dbc440a58bccc895d9dc9802cb083a1ab3eeb5",
+      "previous_hash": "0015aaaf7eca9b4c19d36b254b06703007dc224fde35f71cd4cee6fda7f31db8",
+      "nonce": 133,
+      "hash": "008fb1189084fcfce602c19b5b3e552af4df93e3db232968573ccc728b5e33eb",
+      "transactions": [
+        {
+          "tx_id": "eecca1028a471b8d1f749f0b4ac5813314ee393409b9f79f0b62c5e8d9a57a55",
+          "sender": "saad",
+          "recipient": "owais",
+          "amount": 10000.0,
+          "tx_type": "TRANSFER",
+          "metadata": {
+            "note": ""
+          },
+          "timestamp": 1791658470.942436
+        },
+        {
+          "tx_id": "e8478ae68c2d24c9b3b4d5f3eba37d765f5cde9c2466b13f665ecc2339f4edb5",
+          "sender": "owais",
+          "recipient": "saad",
+          "amount": 5000.0,
+          "tx_type": "TRANSFER",
+          "metadata": {
+            "note": ""
+          },
+          "timestamp": 1791658496.183388
+        },
+        {
+          "tx_id": "7503c43c80fbd8d734eeefe3f82f1753018c25a24fc0a15ff7ed4e0207fe3733",
+          "sender": "SYSTEM",
+          "recipient": "Validator_Node_1",
+          "amount": 10.0,
+          "tx_type": "MINING_REWARD",
+          "metadata": {
+            "note": "Proof-of-Work Block Reward for Node Validator_Node_1"
+          },
+          "timestamp": 1791658510.3364205
+        }
+      ]
+    }
+  ]
+}
